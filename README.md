@@ -1,2 +1,2 @@
 # 100-Days-Python_Day-58
-tindog
+This is to build a tinder like website for dogs - tindog using bootstrap.
