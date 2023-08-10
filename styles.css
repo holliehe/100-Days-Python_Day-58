@@ -1,0 +1,168 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+padding: 3% 15% 7%;
+}
+
+.download-button {
+    margin: 3% 5% 3% 0;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/*nav section*/
+.navbar {
+    padding: 0 0 4.5rem
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-itme {
+    padding: 0 18px
+}
+
+.nav-link {
+    font-size:1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100
+}
+/*title section*/
+#title {
+    background-color: #ff4c68;
+}
+
+.title-image {
+    width: 300px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/*feature section*/
+#features {
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    padding: 7% 15%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.feature-word {
+    color: grey;
+    font-weight: light;
+    padding:0% 20%;
+    font-size: 0.8rem;
+}
+
+/*testimonial section*/
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*press*/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*pricing section*/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/*cta section*/
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    padding: 3% 25% 0%;
+}
+
+.download-button-small {
+    margin: 3% 1% 8% 0;
+}
+
+/*footer section*/
+#footer {
+    text-align: center;
+}
+
+.copy {
+    color: grey;
+    font-size: 1rem;
+    padding-bottom: 10%;
+}
+
+.social-icon {
+    padding: 6% 1% 1% 0;
+}
+
+@media (max-width: 990px) {
+    #title-section {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
